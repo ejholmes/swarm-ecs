@@ -5,7 +5,7 @@ This is a simple Go program that generates a text file suitable for the [swarm f
 ## Installation
 
 ```
-go get -u github.com/ejholmes/swarm-ecs
+go get -u github.com/ejholmes/swarm-ecs/cmd/swarm-ecs
 ```
 
 ## Usage
