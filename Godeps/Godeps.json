@@ -1,0 +1,73 @@
+{
+	"ImportPath": "github.com/ejholmes/ecs",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/endpoints",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/protocol/ec2query",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/protocol/json/jsonutil",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/protocol/jsonrpc",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/protocol/query/queryutil",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/protocol/rest",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/protocol/xml/xmlutil",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/internal/signer/v4",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/ec2",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/ecs",
+			"Comment": "v0.9.7",
+			"Rev": "df31ba5c1c80d1ceffb79b5e0dcc0baf60c3bf1b"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-62-gbf4a526",
+			"Rev": "bf4a526f48af7badd25d2cb02d587e1b01be3b50"
+		},
+		{
+			"ImportPath": "github.com/vaughan0/go-ini",
+			"Rev": "a98ad7ee00ec53921f08832bc06ecf7fd600e6a1"
+		}
+	]
+}
