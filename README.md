@@ -4,18 +4,18 @@ This is a simple Go program that generates a text file suitable for the [swarm f
 
 ## Usage
 
-Watch the cluster and write to `/tmp/my_cluster`:
-
-```console
-swarm-ecs watch --cluster default /tmp/my_cluster
-swarm manage -H tcp://<swarm_ip:swarm_port> file:///tmp/my_cluster
-```
-
 List the hosts within the cluster:
 
 ```console
-swarm-ecs list --cluster default
+swarm-ecs list
 <node_ip1:2375>
 <node_ip2:2375>
 <node_ip3:2375>
+```
+
+Periodically write it to a file that swarm is watching:
+
+```console
+swarm manage -H tcp://<swarm_ip:swarm_port> file:///tmp/my_cluster &
+while true; do swarm-ecs list > /tmp/my_cluster; sleep 1; done
 ```
