@@ -1,4 +1,4 @@
 .PHONY: build
 
 build:
-	go build -o build/swarm-ecs ./cmd/swarm-ecs
+	godep go build -o build/swarm-ecs ./cmd/swarm-ecs
