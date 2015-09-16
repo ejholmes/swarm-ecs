@@ -1,10 +1,10 @@
 package ecs
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/defaults"
-	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/aws/aws-sdk-go/service/ecs"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/defaults"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/ec2"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/ecs"
 )
 
 var DefaultClient *Client

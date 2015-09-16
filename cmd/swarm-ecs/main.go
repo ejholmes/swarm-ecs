@@ -5,8 +5,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/codegangsta/cli"
 	"github.com/ejholmes/ecs"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/codegangsta/cli"
 )
 
 var flagCluster = cli.StringFlag{

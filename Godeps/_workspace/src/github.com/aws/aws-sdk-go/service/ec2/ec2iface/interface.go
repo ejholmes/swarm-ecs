@@ -4,8 +4,8 @@
 package ec2iface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/ec2"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/service/ec2"
 )
 
 // EC2API is the interface type for ec2.EC2.

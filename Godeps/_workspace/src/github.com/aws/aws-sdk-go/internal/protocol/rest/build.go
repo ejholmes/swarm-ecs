@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/aws/request"
 )
 
 // RFC822 returns an RFC822 formatted timestamp for AWS protocols

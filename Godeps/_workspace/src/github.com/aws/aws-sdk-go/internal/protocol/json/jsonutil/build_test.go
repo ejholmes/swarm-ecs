@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/internal/protocol/json/jsonutil"
+	"github.com/ejholmes/ecs/Godeps/_workspace/src/github.com/aws/aws-sdk-go/internal/protocol/json/jsonutil"
 	"github.com/stretchr/testify/assert"
 )
 
