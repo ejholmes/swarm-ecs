@@ -2,6 +2,12 @@
 
 This is a simple Go program that generates a text file suitable for the [swarm file discovery backend](https://github.com/docker/swarm/tree/master/discovery#using-a-static-file-describing-the-cluster)
 
+## Installation
+
+```
+go get -u github.com/ejholmes/swarm-ecs
+```
+
 ## Usage
 
 List the hosts within the cluster:
